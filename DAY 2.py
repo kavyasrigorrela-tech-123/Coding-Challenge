@@ -53,7 +53,27 @@ else :
     print(f'{a} is Negative')
 
 # 8 Checking a person is child,teenager,adult or senior citizen
+age=int(input("Enter your age : "))
+if age<12:
+    print("Child")
+elif age<18:
+    print("Teenager")
+elif age<40:
+    print("Adult")
+else:
+    print("Senior Citizen")
+
+
 # 9 Largest among 3 numbers
+num1f=int(input("Enter first number : "))
+num2=int(input("Enter second number : "))
+num3=int(input("Enter third number : "))
+if(num1>num2 and num1>num3):
+    print(f'{num1} is largest')
+elif(num2>num1 and num2>num3):
+    print(f'{num2} is largest')
+else:
+    print(f'{num3} is largest')
 
 # 10 Customer shopping in a store.If total purchase is greater than 5000,customer gets 20% discount.Calculate and print final amount.
 amount=int(input("Enter the amount:"))

@@ -15,7 +15,7 @@ else:
     print('ATM Withdrawal cannot be processed')
 print(f'Available balance : {bal}')
 
-# 3 Checking student is seligible for admission
+# 3 Checking student is eligible for admission
 marks=int(input("Enter your marks:"))
 cert=input("Do you have the sports quota certificate(yes/no):").lower()
 if marks>=70 or cert=='yes':
