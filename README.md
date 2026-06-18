@@ -28,6 +28,9 @@ This repository contains my daily coding practice and learning progress as I wor
 | Day 5 | While Loops |
 | Day 6 | Lists+Loops |
 | Day 7 | Lists+Loops |
+| Day 8 | Leetcode problems |
+| Day 9 | Coding Practice |
+
 
 ## 🎯 Goal
 
